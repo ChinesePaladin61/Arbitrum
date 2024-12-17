@@ -53,8 +53,8 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 
 # {你的名字}
 
-1. 自我介绍
-2. 你认为你会完成本次残酷学习吗？
+1. Iyi[奕] 一名后端开发者 golang、Node.js、进入 web3 行业 2年
+2. 你认为你会完成本次残酷学习吗？ 会
 
 ## Notes
 
@@ -62,8 +62,28 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 
 ### 2024.12.10
 
-笔记内容
+1. 学习 Arbitrum 基础介绍 https://docs.arbitrum.io/welcome/arbitrum-gentle-introduction
+2. Arbitrum suite https://docs.arbitrum.io/welcome/get-started
 
-### 2024.12.10
+### 2024.12.11
 
+1. 阅读 Layer 2 技术类型 https://cloud.tencent.com/developer/news/1003179
+2. 初步了解交互式证明
+> 有种是懂非懂的感觉,理解不是跟透彻, 期望有人可以通俗易懂的讲解一下
+
+### 2024.12.12
+
+1. 阅读官方文章 简单了解下 Classic 和 Nitro 区别 https://arbitrum.io/nitro-vs-classic/
+
+### 2024.12.13
+
+1. 进一步学习 One、Nitro、Nova 详解 https://community.dorahacks.io/t/arbitrum-one-nitro-nova/562
+
+### 2024.12.14
+
+1. 阅读学习 深入理解 Arbitrum 文章 https://www.theblockbeats.info/news/26507
+
+### 2024.12.15
+
+1. 简单了解下 Arbitrum 生态 [Messari：深度分析 Arbitrum 的繁荣生态](https://www.theblockbeats.info/news/35982)
 <!-- Content_END -->
