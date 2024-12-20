@@ -51,10 +51,12 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 
 ---
 
-# {你的名字}
+# Cora
 
 1. 自我介绍
+   I'm Cora, a web front-end engineer, currently working on an AI project.
 2. 你认为你会完成本次残酷学习吗？
+   of course
 
 ## Notes
 
@@ -62,8 +64,42 @@ timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
 
 ### 2024.12.10
 
-笔记内容
+阅读文档[Arbitrum 的简要介绍](https://docs.arbitrum.io/welcome/arbitrum-gentle-introduction)第一节
 
-### 2024.12.10
+### 2024.12.11
+
+查看如何使用 Solidity 智能合数字纸杯蛋糕自动售货机，尝试构建项目
+
+### 2024.12.12
+
+阅读文档如何在 Arbitrum 中估算 Gas
+
+### 2024.12.13
+
+阅读文档[Rollup，ZK Rollups 与 Optimistic，Arbitrum 的区别](https://cloud.tencent.com/developer/news/1003179)
+
+### 2024.12.14
+
+阅读文档[欺诈证明](https://docs.arbitrum.io/how-arbitrum-works/fraud-proofs/challenge-manager)
+
+### 2024.12.15
+
+阅读文档[非官方欺诈证明](https://www.theblockbeats.info/news/26507)
+
+### 2024.12.16
+
+阅读文档[Nitro vs. Classic](https://docs.arbitrum.io/how-arbitrum-works/why-nitro)
+
+### 2024.12.17
+
+阅读文档[Arbitrum 详解 - One、Nitro、Nova](https://community.dorahacks.io/t/arbitrum-one-nitro-nova/562)
+
+### 2024.12.18
+
+阅读文档[Inside Arbitrum Nitro](https://docs.arbitrum.io/how-arbitrum-works/inside-arbitrum-nitro)
+
+### 2024.12.19
+
+阅读文档[Arbitrum 的秘密武器：交互式欺诈证明](https://www.theblockbeats.info/news/26507)
 
 <!-- Content_END -->

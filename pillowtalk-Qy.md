@@ -1,0 +1,150 @@
+---
+timezone: Asia/Shanghai
+---
+
+> 请在上边的 timezone 添加你的当地时区，这会有助于你的打卡状态的自动化更新，如果没有添加，默认为北京时间 UTC+8 时区
+> 时区请参考以下列表，请移除 # 以后的内容
+
+timezone: Pacific/Honolulu # 夏威夷-阿留申标准时间 (UTC-10)
+
+timezone: America/Anchorage # 阿拉斯加标准时间 (UTC-9)
+
+timezone: America/Los_Angeles # 太平洋标准时间 (UTC-8)
+
+timezone: America/Denver # 山地标准时间 (UTC-7)
+
+timezone: America/Chicago # 中部标准时间 (UTC-6)
+
+timezone: America/New_York # 东部标准时间 (UTC-5)
+
+timezone: America/Halifax # 大西洋标准时间 (UTC-4)
+
+timezone: America/St_Johns # 纽芬兰标准时间 (UTC-3:30)
+
+timezone: America/Sao_Paulo # 巴西利亚时间 (UTC-3)
+
+timezone: Atlantic/Azores # 亚速尔群岛时间 (UTC-1)
+
+timezone: Europe/London # 格林威治标准时间 (UTC+0)
+
+timezone: Europe/Berlin # 中欧标准时间 (UTC+1)
+
+timezone: Europe/Helsinki # 东欧标准时间 (UTC+2)
+
+timezone: Europe/Moscow # 莫斯科标准时间 (UTC+3)
+
+timezone: Asia/Dubai # 海湾标准时间 (UTC+4)
+
+timezone: Asia/Kolkata # 印度标准时间 (UTC+5:30)
+
+timezone: Asia/Dhaka # 孟加拉国标准时间 (UTC+6)
+
+timezone: Asia/Bangkok # 中南半岛时间 (UTC+7)
+
+timezone: Asia/Shanghai # 中国标准时间 (UTC+8)
+
+timezone: Asia/Tokyo # 日本标准时间 (UTC+9)
+
+timezone: Australia/Sydney # 澳大利亚东部标准时间 (UTC+10)
+
+timezone: Pacific/Auckland # 新西兰标准时间 (UTC+12)
+
+---
+
+# {Qy}
+
+1. 自我介绍：Qy
+2. 你认为你会完成本次残酷学习吗？：yes
+
+## Notes
+
+<!-- Content_START -->
+
+### 2024.12.10
+
+1.我们可以用以太坊来证明Arbitrum上的欺诈行为吗？但如果发生欺诈行为，我们能绝对确定能够证明这一点吗？
+      是的，我们确实可以。这就是“rollup”部分的用武之地。输入 Arbitrum Rollup 链的数据（即用户的交易数据）直接发布在以太坊上。因此，只要以太坊本身安全运行，任何感兴趣的人都可以了解 Arbitrum 中正在发生的事情，并且有能力检测和证明欺诈行为。
+
+2.听起来 Arbitrum Rollup 是解决所有扩展问题的理想解决方案？
+      Arbitrum Rollup 非常棒而且很酷；它的设计主要是为了避免引入任何中心化或信任假设，因此对于以太坊生态系统来说这是一个明显、严格的净赢。然而，去中心化是有代价的，并不是所有应用程序和用户都一定希望或需要付出这个代价。对于具有不同安全考虑的 dapp 用例，Arbitrum 套件中的不同工具都是合适的；即 Arbitrum AnyTrust 链！
+
+### 2024.12.10
+
+### 2024.12.11
+
+1.Arbitrum是一套以太坊扩展解决方案，可以轻松构建和使用去中心化应用程序。本文档提供了 Arbitrum 套件的高级概述以及针对特定受众量身定制的入门指南。
+
+2.用户可以通过 Arbitrum 桥或使用已部署到 Arbitrum 链的 dApp 与 Arbitrum 进行交互。
+
+3.开发人员通过将智能合约部署到 Arbitrum 链来构建 Arbitrum dApp。
+
+4.链运营商使用 Arbitrum Orbit 来运行专用 Rollup 和 AnyTrust 链。
+
+
+### 2024.12.11
+
+### 2024.12.12
+
+1.将智能合约部署到 Arbitrum One 主网。现在我们已经验证了我们的智能合约可以在 Arbitrum 的 Sepolia 测试网上运行，我们准备将其部署到 Arbitrum One 主网。这与部署到 Arbitrum 的 Sepolia 测试网的过程相同，只是我们需要以真实的 ETH 美元而不是 ASPL 支付交易费。预计在此步骤中会看到不一致的 $ETH Gas 费 - Gas 和费用部分包含有关如何确定 Arbitrum 交易的 Gas 费的更多信息。
+
+2.以太坊是一个去中心化的节点网络，使用以太坊的客户端软件（如 Offchain 的Prysm ）来维护公共区块链数据结构。以太坊区块链数据结构中的数据一次更改一笔交易。智能合约是根据预定义规则执行交易的小程序。以太坊的节点托管并执行智能合约。您可以使用智能合约构建去中心化应用程序 (dApp)，这些应用程序使用以太坊网络来处理交易和存储数据。DApp 允许用户在应用程序之间携带数据和身份，而无需信任中心化服务提供商。运行以太坊验证器节点3的人可以通过代表用户和 dApp 处理和验证交易来赚取 ETH。当网络负载较重时，这些交易可能会很昂贵。
+
+### 2024.12.12
+
+### 2024.12.13
+
+1.ZK Rollups, ZKSnark 或者叫Zero Knowledge Rollups，顾名思义，通过零知识证明验证来进行Rollups环节。 零知识证明，也是区块链公链项目Algorand的创始人Silvio Micali在密码学的主要贡献之一。
+2.Zero Knowledge: 验证者无需看到交易所有数据，Succinct: 言简意赅的，简练的，Non-Interactive: 无需知道验证者是谁，Argument of Knowledge: 证明交易的真实性与正确性。
+3.Optimistic的方法如其名字的意思：乐观的，开始认为所有发送的交易都是值得信赖认证过的。Layer 2验证者需要先质押Token作为保证金，如果验证过程中，别人发现了有问题的打包，那么该验证者（Sequencer）将被罚款部分Token，并把其作为奖励给与发现问题的人。每次数据打包后，会有验证期，以供其他验证者检查是否有问题，是否需要重新退回打包。Optimistic Rollups也具有智能合约功能，可以拥有相应的治理Token。
+### 2024.12.13
+
+### 2024.12.14
+
+1.Rollup指的是一种整理方法，把一堆交易任务送到Layer2协议去打工，从而提升以太坊的运行效率。
+2.Zk Rollups是指一种利用零知识证明的密码学算法，在无需知道验证者是谁的情况下，完成外包工作的Layer2方法。
+3.Optimistic Rollups是指利用一堆验证者，在默认打包是好的情况下，通过奖惩机制，监督发掘是否有Bug的Layer2方法。
+4.Optimism和Arbitrum都是Optimisctic Rollups方法为基础开发的项目。
+5.Zksync, ZKxxxxxxx很多ZK，都是以ZK Rollups方法为基础或噱头，开发的项目。
+
+### 2024.12.14
+
+### 2024.12.15
+
+1.就以太坊而言，大 gas 容量的 Arbitrum 交易的唯一缺点是它可能需要运行更多的交互步骤（这个也仅仅是在有所争议的情况下）。相反，重执行模式下的 rollup 交易，gas limit 必须小于以太坊的区块 Gas Limit，否则就没法在一笔以太坊交易内模拟执行完这笔交易了（而且模拟执行比起在以太坊中直接执行，gas 消耗量还要更大）。
+
+2.合约大小没有限制：交互式证明无需为每一个 L2 合约创建一个以太坊合约，所以也不要求合约符合以太坊合约的限制。对于 Arbitrum 的争议合约来说，在 L2 上部署一个合约的操作也是一系列计算过程的组合，与别的操作没有区别。相反，重执行模式下，L2 合约的大小比以太坊主链上所能容许的还要小，因为要模拟一个合约的执行需要能够仿制（instrument）这个合约，而仿制的代码必须能够放进一个以太坊合约内。
+
+### 2024.12.15
+
+### 2024.12.16
+
+
+
+### 2024.12.16
+
+### 2024.12.17
+
+Nitro 代表了 Arbitrum 技术发展的最新一步；它是首次在主网 Arbitrum One 链上发布的技术堆栈的升级版，我们现在将其称为“Arbitrum Classic”（并且比2018 年最初的 Arbitrum 白皮书中描述的要高出几步）。在这里，我们将解释 Nitro 升级背后的理由，并概述 Nitro 相对于经典系统的核心优势。从远处看，Classic 和 Nitro 系统做类似的事情：都试图创建一个尽可能接近 EVM 的执行环境，作为以太坊的第二层运行；也就是说，L2 虚拟机状态更新的安全性可以通过以太坊本身的简洁欺诈证明来保证和执行。在 Arbitrum Classic 中，这是通过定制的虚拟机实现的，我们称之为 Arbitrum 虚拟机 (AVM)。Arbitrum 的 L2 状态机的实现（称为“ArbOS”）实际上是一个编译并上传到 AVM 的程序；ArbOS 包括（除其他功能外）模拟 EVM 执行的能力。在 Nitro 中，我们使用 WebAssembly (Wasm)，而不是使用 AVM 执行低级指令。由于 Go 代码可以编译为 Wasm，因此我们可以用 Go 实现 ArbOS 程序，并在其中（作为子模块）包含Geth 本身，这是最广泛使用的以太坊实现。这种架构（可直接使用 Geth 的 EVM 实现）是 Nitro 的定义性特征，也是我们谈论“Nitro”时主要谈论的内容。Nitro 的大部分优势都是这种设计选择的直接或间接结果。我们可以将这些优势总结如下：费用更低、以太坊兼容性更好、简单易用。
+
+### 2024.12.17
+
+### 2024.12.18
+
+Stylus 是 Arbitrum 开发的支持多语言构建应用程序的开源 SDK 。这是一种实现 EVM+ 兼容性的产品。简言之，开发人员在 Arbitrum 上既能使用传统 Solidity 语言，又能使用 WASM 兼容的语言，如 Rust、C 和 C++ 等来构建应用程序。此外，Stylus 使 Dapps 的执行更加高效，显著地降低了 gas 成本。Stylus 不局限于支持 Rust、C 和 C++, 例如 Move、Sway、Cairo 和 Go 等。试想下，以后 Aptos/ Fuel/ StarkNet 上的 dApps 能一键迁移至 Arbitrum 上。甚至可以通过 Arbitrum Orbit 实现一键 L3 链的链改。更有趣的是，BOLD、Stylus 都是通用的模块化组件；开发者基于 Arbitrum Orbit 启动特定用例的 L3，可以原生集成 BOLD、Stylus；也可以通过去中心化 DAO 治理的形式，在 L3 启动并平稳运行后再投票决定集成上述模块化组件。
+
+### 2024.12.18
+
+### 2024.12.19
+
+1.Arbitrum Nova 是基于 AnyTrust 技术搭建的新链，专为游戏、社交应用程序和对成本更敏感的用例而设计。Nova 提供了 2 种数据发布方式，一种是像 Nitro 一样以 Calldata 的形式发布完整数据，另一种是发布 DACert 证明数据的可用性。
+2.Arbitrum Orbit 是一个开发框架，允许用户使用任何基于 Arbitrum Rollup 的 L2 网络作为结算层来创建和启动 L3 网络。借助 Arbitrum Orbit，用户可以在隐私、权限、费用代币、治理等方面定制自己的链。Orbit 链为最终用户提供专用吞吐量、流量隔离和 Gas 价格可靠性，从而允许快速迭代特定领域的机制设计和价值捕获机会。
+3.BOLD 是 Arbitrum 团队提出的无需许可验证机制，目的是最小化结算状态的延迟。
+
+### 2024.12.19
+
+### 2024.12.20
+
+
+
+### 2024.12.20
+<!-- Content_END -->
